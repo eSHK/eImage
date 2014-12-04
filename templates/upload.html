@@ -1,0 +1,25 @@
+		<div class="desc"><p>{$lang.home_desc}</p></div>
+		<dl class="info">
+			<dt id="filetypes">{$lang.filetypes}</dt><dd>gif, jpg, jpeg, png</dd>
+			<dt id="bandwidth">{$lang.bandwidth}</dt><dd>{$lang.unlimited}</dd>
+			<dt id="filesize">{$lang.filesize}</dt><dd>{$maxuploadmb} MB ({$maxuploadsize} bytes)</dd>
+			<dt id="user">{$lang.user}</dt><dd>{$lang.notrequire}</dd>
+		</dl>
+		<div class="clear"></div>
+		<div class="upload">
+			<form enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return validdata();">
+				<p><input id="file" name="file" type="file" class="file" size="50" onchange="checktype(this.value);" onkeydown="return false;" accept="image/*" /></p>
+				<div><input id="upload_button" class="upload_button" type="submit" value="" title="{$lang.upload_button}" /></div>
+				<p id="uploading_div" class="progressbar"><span>{$lang.fileuploading}</span></p>
+				<p><input id="re_set" type="reset" style="position:absolute; top:-10000px;" /></p>
+			</form>
+		</div>
+		<p class="terms_alert">
+			<img src="images/icon/icon_alert.gif" alt="" />
+			<span>{$lang.terms_alert}</span>
+		</p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick" />
+			<p><input type="image" src="images/btn_donateCC_LG.gif" style="border:0px;" name="submit" alt="Donate eService-HK" /></p>
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+		</form>

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$site.title}</title>
+<meta name="keywords" content="{$site.keywords}" />
+<meta name="description" content="{$site.description}" />
+<meta name="author" content="HKLCF" />
+<meta name="version" content="eImage v1.11" />
+<meta name="copyright" content="Copyright (c) 2008 eService-HK Company" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="./{$csspark}" />
+<script async type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script async type="text/javascript" src="./js/{$jspark}"></script>
+</head>
+<body onclick="document.getElementById('langdrop').style.display = 'none';">
+<!-- Header Start -->
+{include file=$header action=$action userlang=$userlang}
+<!-- Header End -->
+<!-- Content Start -->
+<div class="content">
+{include file=$leftside lang=$langpark}
+	<div class="rightside">
+{include file=$content lang=$langpark}
+	</div>
+</div>
+<!-- Content End -->
+<!-- Footer Start -->
+{include file=$footer lang=$langpark}
+<!-- Footer End -->
+<div id="alertm">
+	<span id="alertm_message"></span>
+	<a class="closelink" href="#" onclick="alertm(null, 'close');">{$langpark.close}</a>
+</div>
+</body>
+</html>

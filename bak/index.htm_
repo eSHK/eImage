@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>eService-HK Image Hosting 系統維護通知</title>
+<style type=text/css>
+BODY {
+	BACKGROUND: #fff; COLOR: #4f4f4f; LINE-HEIGHT: 20px; FONT-FAMILY: Arial,Verdana, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+P {
+	TEXT-INDENT: 2em
+}
+.red {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.h1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000
+}
+.h-box {
+	DISPLAY: block; MARGIN-LEFT: 22px
+}
+.h-bot {
+	DISPLAY: block; TEXT-ALIGN: right
+}
+.l {
+	FLOAT: left
+}
+.r {
+	FLOAT: right
+}
+.c {
+	CLEAR: both
+}
+.o {
+	FONT-SIZE: 0px
+}
+#body_w {
+	MARGIN: 110px auto; WIDTH: 734px; HEIGHT: 378px
+}
+#body_h {
+	BACKGROUND: url(images/logo.jpg) no-repeat left 50%; MARGIN-BOTTOM: 22px; HEIGHT: 50px
+}
+#body_d {
+	HEIGHT: 306px
+}
+#body_dl {
+	BORDER-RIGHT: #d2d2d2 1px solid; BORDER-TOP: #d2d2d2 1px solid; BACKGROUND: #fff; BORDER-LEFT: #d2d2d2 1px solid; WIDTH: 726px; BORDER-BOTTOM: #d2d2d2 1px solid; HEIGHT: 297px
+}
+#body_dl IMG {
+	WIDTH: 180px; PADDING-TOP: 40px
+}
+#body_dl .tex {
+	WIDTH: 520px; PADDING-TOP: 40px
+}
+#body_dr {
+	MARGIN-TOP: 7px; BACKGROUND: #e3e3e3; WIDTH: 6px; HEIGHT: 292px
+}
+#body_dbot {
+	BACKGROUND: #e3e3e3; MARGIN-LEFT: 7px; HEIGHT: 6px
+}
+</style>
+<meta http-equiv="Refresh" content="10;URL=index.php" />
+</head>
+
+<body>
+<div id=body_w>
+<div id=body_h></div>
+<div id=body_d>
+<div class=l id=body_dl>
+<div class=l>
+<img src="./repair.jpg">
+</div>
+<div class="l tex">
+<span class=h1>親愛的eService-HK會員:</span><br /><br />
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;為了減省成本開支，本公司之免費圖片上傳服務將於 <span class=red>2009年06月08日 00:00 am 起無限期暫停服務。</span></p>
+<br />
+<span class=h-box>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由現在起至暫停服務期間，img.eservice-hk.net內的所有圖片均能正常訪問，eService-HK提供的其他服務，包括網頁寄存、域名註冊、主機租用、網頁計設、伺服器出售、卡片及傳單計設等，均不受影響！由於此次決定給您造成的不便，敬請諒解。感謝您長期以來對eService-HK的支持，並請繼續關注、支持eService-HK。</span><br />
+<span class=h-bot>eService-HK Company<br />
+2009年06月01日</span>
+</div>
+<div class="c o"></div></div>
+<div class=l id=body_dr></div>
+<div class="c o"></div>
+<div class=o id=body_dbot></div>
+</div>
+</div>
+</body>
+</html>

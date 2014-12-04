@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://img.eservice-hk.net/</loc></url>
+<url><loc>http://img.eservice-hk.net/?lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/index.php</loc></url>
+<url><loc>http://img.eservice-hk.net/index.php?action=about</loc></url>
+<url><loc>http://img.eservice-hk.net/index.php?action=contact</loc></url>
+<url><loc>http://img.eservice-hk.net/index.php?action=faq</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=announcement</loc></url>
+<url><loc>http://img.eservice-hk.net/?lang=zh/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=about&amp;lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=contact&amp;lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=faq&amp;lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=login/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=announcement&amp;lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=terms/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=about&amp;lang=zh/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=contact&amp;lang=zh/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=faq&amp;lang=zh/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=login/&amp;lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=announcement&amp;lang=zh/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=terms/&amp;lang=en</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=login/&amp;lang=zh/</loc></url>
+<url><loc>http://img.eservice-hk.net/?action=terms/&amp;lang=zh/</loc></url>
+</urlset>

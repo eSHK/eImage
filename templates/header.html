@@ -1,0 +1,20 @@
+<div class="headerbg">
+	<div class="header">
+		<div class="lang">
+			<a class="status" href="javascript:langchooser();" title="{if $userlang == '繁中'}繁體中文{elseif $userlang == 'Eng'}English{/if}">{$userlang}</a>
+			<div id="langdrop">
+				<a id="lang_zh" href="?{if $action}action={$action}&{/if}lang=zh" title="語言切換至繁體中文">繁體中文</a>
+				<a id="lang_eng" href="?{if $action}action={$action}&{/if}lang=en" title="Change Language to English">English</a>
+			</div>
+		</div>
+		<div class="ssl">
+			<a class="{if $ssl == 'https'}open{elseif $ssl == 'http'}close{/if}" href="{$ssl_url}" title="{if $ssl == 'https'}啟用 SSL 加密{elseif $ssl == 'http'}關閉 SSL 加密{/if}"></a>
+		</div>
+		<ul class="menu">
+			<li id="home"><a href="./"></a></li>
+			<li id="about_us"><a href="index.php?action=about"></a></li>
+			<li id="contact_us"><a href="index.php?action=contact"></a></li>
+			<li id="faq"><a href="index.php?action=faq"></a></li>
+		</ul>
+	</div>
+</div>

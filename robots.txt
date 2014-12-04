@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://img.eservice-hk.net/sitemap.xml
