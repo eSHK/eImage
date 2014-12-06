@@ -32,18 +32,18 @@ if(isset($version) && $version == '2') {
                 $uploadfile['size'] = $_FILES['file']['size'];
                 $uploadfile['url'] = $site['url'] . $upload_path;
 	
-				if(file_exists($upload_path)) {
-					$error = array('status_code' => '403', 'status' => 'false', 'error' => 'file already exist');
-					echo json_encode($error);
-				} else {
-					move_uploaded_file($_FILES['file']['tmp_name'], $upload_path);
-					$ip_record = fopen($upload_ip, 'x');
-					fwrite($ip_record, "{$_SERVER["REMOTE_ADDR"]} - {$_SERVER["HTTP_USER_AGENT"]} @ API");
-					fclose($ip_record);
-					chmod($upload_path, 0644);
-					chmod($upload_ip, 0644);
-					$uploadfile['savepath'] = $upload_path;
-				}
+                if(file_exists($upload_path)) {
+                    $error = array('status_code' => '403', 'status' => 'false', 'error' => 'file already exist');
+                    echo json_encode($error);
+                } else {
+                    move_uploaded_file($_FILES['file']['tmp_name'], $upload_path);
+                    $ip_record = fopen($upload_ip, 'x');
+                    fwrite($ip_record, "{$_SERVER["REMOTE_ADDR"]} - {$_SERVER["HTTP_USER_AGENT"]} @ API");
+                    fclose($ip_record);
+                    chmod($upload_path, 0644);
+                    chmod($upload_ip, 0644);
+                    $uploadfile['savepath'] = $upload_path;
+                }
 	
 				$result = array(
 					'status_code' => '200',
