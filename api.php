@@ -3,12 +3,12 @@ require './config.php';
 
 $version = htmlentities($_GET['version']);
 if(isset($version) && $version == '2') {
-	if($_SERVER['REQUEST_METHOD'] == 'POST') {
-		if(in_array($_FILES['file']['type'], $upload_type) && in_array(strrchr($_FILES['file']['name'], '.'), $upload_ext) && $_FILES['file']['size'] < $maxuploadsize && getimagesize($_FILES['file']['tmp_name'])) {
-			if($_FILES['file']['error'] > '0') {
-				$error = array('status_code' => '400', 'status' => 'false', 'error' => $_FILES['file']['error']);
-				echo json_encode($error);
-			} else {
+    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+        if(in_array($_FILES['file']['type'], $upload_type) && in_array(strrchr($_FILES['file']['name'], '.'), $upload_ext) && $_FILES['file']['size'] < $maxuploadsize && getimagesize($_FILES['file']['tmp_name'])) {
+            if($_FILES['file']['error'] > '0') {
+                $error = array('status_code' => '400', 'status' => 'false', 'error' => $_FILES['file']['error']);
+                echo json_encode($error);
+            } else {
 				$oldumask = umask(0);
 				@mkdir($upload_dir.'/'.date('Y'));
 				@mkdir($upload_dir.'/'.date('Y').'/'.date('m'));
