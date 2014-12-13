@@ -23,7 +23,7 @@ if($_SESSION['pass'] == $sesspass && $_SERVER['REQUEST_METHOD'] == 'POST' && in_
 		$ms = $hm*60;
 		$upload_time = gmdate('His', time()+($ms));
 		$file_name = md5($_FILES['file']['name']);
-		$file_ext = strrchr($_FILES['file']['name'], '.');
+		$file_ext = strtolower(strrchr($_FILES['file']['name'], '.'));
 		$upload_path = $upload_dir_date . $upload_time . '_' . $file_name . $file_ext;
 		$upload_ip_path = $upload_ip_dir_date . $upload_time . '_' . $file_name . $file_ext;
 		$upload_ip = $upload_ip_path . '_' . $_SERVER['REMOTE_ADDR'];
