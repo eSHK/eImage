@@ -54,7 +54,7 @@ if($_SESSION['pass'] == $sesspass && $_SERVER['REQUEST_METHOD'] == 'POST' && in_
         } else {
             move_uploaded_file($_FILES['file']['tmp_name'], $upload_path);
             $ip_record = fopen($upload_ip, 'x');
-            fwrite($ip_record, "{$_SERVER["REMOTE_ADDR"]} - {$_SERVER["HTTP_USER_AGENT"]}");
+            fwrite($ip_record, "{$_SERVER['REMOTE_ADDR']} - {$_SERVER['HTTP_USER_AGENT']}");
             fclose($ip_record);
             chmod($upload_path, 0644);
             chmod($upload_ip, 0644);
