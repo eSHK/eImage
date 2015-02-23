@@ -57,21 +57,21 @@ if($_GET['action'] == 'login' && isset($_GET['send'])) {
 
 $assign = array(
     //Variable
-    'action'        =>	$action,
-    'userlang'      =>	$userlang,
-    'csspark'       =>	CSSFILE,
-    'jspark'        =>	JSFILE,
-    'langpark'      =>	$langpark,
+    'action'        =>  $action,
+    'userlang'      =>  $userlang,
+    'csspark'       =>  CSSFILE,
+    'jspark'        =>  JSFILE,
+    'langpark'      =>  $langpark,
     'ssl'           =>  $ssl,
     'ssl_url'       =>  $ssl_url,
-    'site'          =>	$site,
-    'maxuploadmb'   =>	$maxuploadmb,
-    'maxuploadsize' =>	number_format($maxuploadsize),
+    'site'          =>  $site,
+    'maxuploadmb'   =>  $maxuploadmb,
+    'maxuploadsize' =>  number_format($maxuploadsize),
     //Template
-    'header'		=>	'header.html',
-    'leftside'		=>	'leftside.html',
-    'content'		=>	$content,
-    'footer'		=>	'footer.html'
+    'header'        =>  'header.html',
+    'leftside'      =>  'leftside.html',
+    'content'       =>  $content,
+    'footer'        =>  'footer.html'
 );
 
 //Assign variables
