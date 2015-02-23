@@ -17,7 +17,8 @@ if(isset($id) && is_numeric($id)) {
             $chart_url = '';
             break;
     }
-    file_get_contents();
+    header("Content-Type:image/png");
+    file_get_contents($chart_url);
 }
 
 ?>
