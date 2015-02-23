@@ -49,7 +49,8 @@ if($_GET['action'] == 'contact' && isset($_GET['send'])) {
 
 if($_GET['action'] == 'login' && isset($_GET['send'])) {
     if($_POST['username'] == $admin['username'] && encrypt_pass($_POST['password']) == $admin['password']) {
-        $content = 'api.html';
+        setcookie('login', 1)
+        $content = 'chart.html';
     } else {
         $content = 'upload.html';
     }
