@@ -8,6 +8,7 @@ $langpark = array(
     //Index page
     'login'                    =>    '管理員登入',
     'api'                    =>    'API',
+    'chart'                 =>    '圖片',
     'announcement'            =>    '網站公告',
     'home'                    =>    '首頁',
     'home_desc'                =>    'eImage 是一個免費圖片上傳服務，讓您輕鬆上傳、鏈接和分享您的圖片在論壇、博客並與您的朋友們在一個快速，穩定和便捷的服務中上傳圖片。',
