@@ -1,5 +1,6 @@
 <?php
-request '.condif.php';
+require '.config.php';
+
 
 
 ?>
