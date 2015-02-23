@@ -22,7 +22,7 @@ if(isset($id) && is_numeric($id)) {
     }
     header("Content-Type:image/png");
     $result = file_get_contents($chart_url);
-	echo $result;
+    echo $result;
 } else {
     header('Location: index.php');
 }
