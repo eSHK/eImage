@@ -1,5 +1,5 @@
 <?php
-require '.config.php';
+require './config.php';
 
 $id = htmlentities($_GET['id']);
 if(isset($id) && is_numeric($id)) {
