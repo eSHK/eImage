@@ -8,6 +8,7 @@ $langpark = array(
 	//Index page
 	'login'					=>	'Admin Login',
 	'api'					=>	'API',
+	'chart'					=>	'Chart',
 	'announcement'			=>	'Announcement',
 	'home'					=>	'Home',
 	'home_desc'				=>	'eImage is a free image hosting provider that let you easily upload, link and share your images in forum, blog and with your friends in a fast, stable and convenient way.',
