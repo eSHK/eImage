@@ -8,6 +8,9 @@
             </div>
         </div>
         <div class="ssl">
+            <a class="{if $ssl == 'https'}open{elseif $ssl == 'http'}close{/if}" href="{$ssl_url}" title="{if $ssl == 'https'}啟用 SSL 加密{elseif $ssl == 'http'}關閉 SSL 加密{/if}"></a>
+                
+            </div>
 		<ul class="menu">
 			<li id="home"><a href="index.php"></a></li>
 			<li id="about_us"><a href="index.php?action=about"></a></li>
