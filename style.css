@@ -466,7 +466,7 @@ div.footer {
     display:block;
     margin:auto;
     clear:both;
-    background:linear-gradient(white, #badb54);
+    background:linear-gradient(white, #ecfabd, #badb54);
     height:30px;
 }
 div.footer span {
