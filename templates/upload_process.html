@@ -9,21 +9,17 @@
 		<div class="clear"></div>
 		<div class="img-dec" style="width:{$file.width}px;">
 		<div>{$imgshow}</div>
-		<div><a href="https://plus.google.com/share?url={$code.link}" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Share on Google+"><img
-  src="./images/icon/gplus-16.png"/></a><a href="https://www.facebook.com/sharer/sharer.php?u={$code.link}" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Share on Facebook"><img
-  src="./images/icon/fb-16.png"/></a></div>
-        </div>
+		<div><a href="https://plus.google.com/share?url={$code.link}&t={$file.name}" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Share on Google+"><img src="./images/icon/gplus-16.png"/></a><a href="https://www.facebook.com/sharer/sharer.php?u={$code.link}&p[title]={$file.name}" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Share on Facebook"><img src="./images/icon/fb-16.png"/></a></div>
+		</div>
 
-        <script type="text/javascript" src="./js/ZeroClipboard.js"></script>
+		<script type="text/javascript" src="./js/ZeroClipboard.js"></script>
 		<dl class="fileinfo">
 			<dt>{$lang.html_code} :</dt><dd><div id="html_code" class="ico-copy" title="Copy" data-clipboard-text="{$code.html}"></div><input id="htmlcode" name="htmlcode" data-clipboard-text="{$code.html}" value="{$code.html}" onclick="this.select();" /></dd>
 			<dt>{$lang.thumb_code} :</dt><dd><div id="thumb_code" class="ico-copy" title="Copy" data-clipboard-text="{$code.thumb}"></div><input id="thumbcode" name="thumbcode" data-clipboard-text="{$code.thumb}" value="{$code.thumb}" onclick="this.select();" /></dd>
 			<dt>{$lang.img_code} :</dt><dd><div id="img_code" class="ico-copy" title="Copy" data-clipboard-text="{$code.img}"></div><input id="imgcode" name="imgcode" data-clipboard-text="{$code.img}" value="{$code.img}" onclick="this.select();" /></dd>
 			<dt>{$lang.direct_link} :</dt><dd><div id="direct_link" class="ico-copy" title="Copy" data-clipboard-text="{$code.link}"></div><input id="directlink" name="directlink" data-clipboard-text="{$code.link}" value="{$code.link}" onclick="this.select();" /></dd>
 		</dl>
-        <script type="text/javascript">
+		<script type="text/javascript">
 		ZeroClipboard.config( { swfPath: "./images/ZeroClipboard.swf" } );
 		var client = new ZeroClipboard( document.getElementById('html_code') );
 		var client = new ZeroClipboard( document.getElementById('htmlcode') );
@@ -33,7 +29,7 @@
 		var client = new ZeroClipboard( document.getElementById('imgcode') );
 		var client = new ZeroClipboard( document.getElementById('direct_link') );
 		var client = new ZeroClipboard( document.getElementById('directlink') );
-        </script>
+		</script>
 		<div class="clear"></div>
 
 		<form action="showimg.php?img={$file.savepath}" method="post" enctype="multipart/form-data" onsubmit="return validsize()">
