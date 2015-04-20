@@ -1,4 +1,4 @@
-<?
+<?php
 require './config.php';
 ini_set('memory_limit', '256M');
 
@@ -35,7 +35,7 @@ if(!$_GET['img'] || @!getimagesize($_GET['img'])) {
 		}
 
 		$thumb = imagecreatetruecolor($newwidth, $newheight);
-		$background_color = ImageColorAllocate($thumb, 255,255,255);
+		$background_color = imagecolorallocate($thumb, 255,255,255);
 		imagecolortransparent($thumb, $background_color);
 		$file_ext = strrchr($_GET['img'], '.');
 
