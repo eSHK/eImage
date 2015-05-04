@@ -12,7 +12,7 @@ if(isset($action) && in_array($action, array('announcement', 'api', 'login', 'ab
     $content = 'upload.html';
 }
 
-if($_GET['action'] == 'contact' && isset($_GET['send']) && isset($_POST['name']) && isset($_POST['email']) && !empty($_POST['name']) && !empty($_POST['email'])) {
+if($_GET['action'] == 'contact' && isset($_GET['send']) && !empty($_POST['name']) && !empty($_POST['email'])) {
     $type = $_POST['type'];
     switch($type) {
         case 1:
